@@ -1,15 +1,17 @@
 # Quickrails5
 
-Rails 5 boilerplate with postgresql
+Rails 5 boilerplate with postgresql and webpack
+
+## Features
 
 ### Current Features
 
 * User Authentication with Devise
+* Styling
+  * Bootstrap v4
 
 ### Upcoming Features
 
-* Styling
-  * Bootstrap v4
 * User Authentication with
   * Google
   * Facebook
@@ -17,32 +19,52 @@ Rails 5 boilerplate with postgresql
 * Code coverage with RSpec
 * Continuous Integration with travis-CI and Heroku
 
-#### Ruby version
+## Dependencies
 
-Ruby 2.5.0
-
-### System dependencies
-
+* Ruby 2.5.0
+* Rails 5.1.4
+* Node.js 6.0.0+
+* Yarn 0.25.2+
 * [foreman](https://github.com/ddollar/foreman)
+
+## Getting started
+
+Bundler is used to manage Ruby gems and Yarn is used to manage javascript packages.
+
+Install ruby gem by running
+<pre>
+bundle install
+</pre>
+
+Install javascript packages by running
+<pre>
+yarn
+</pre>
+
+### Database
+
+Setup the base and run migrations by running
+<pre>
+rails db:create
+rails db:migrate
+</pre>
 
 ### Configuration
 
-#### Environmental Variables
-
-#### Text Editor configuration
+#### Text Editor Configuration
 
 This project utilizes .editorconfig to normalize development environments.
 
-#### Database
+### Environmental Variables
 
-Documentation on initializing the database in the added in the future.
+## Development
 
-### Development
-
-#### Launching development server
+### Launching development server
 
 To launch webpack-dev-server and rails server together, run the command below
-`foreman start -f PROCFILE.dev`
+<pre>
+foreman start -f PROCFILE.dev
+</pre>
 
 ### Testing
 
