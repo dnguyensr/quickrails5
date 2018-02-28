@@ -1,4 +1,4 @@
-# Quickrails5 [![Build Status](https://travis-ci.org/dnguyensr/quickrails5.svg?branch=master)](https://travis-ci.org/dnguyensr/quickrails5)
+# Quickrails5 [![Build Status](https://travis-ci.org/dnguyensr/quickrails5.svg?branch=master)](https://travis-ci.org/dnguyensr/quickrails5) [![Coverage Status](https://coveralls.io/repos/github/dnguyensr/quickrails5/badge.svg?branch=master)](https://coveralls.io/github/dnguyensr/quickrails5?branch=master)
 
 Rails 5 boilerplate with postgresql and webpack
 
@@ -9,6 +9,9 @@ Rails 5 boilerplate with postgresql and webpack
 * User Authentication with Devise
 * Styling
   * Bootstrap v4
+* Testing with Rspec (WIP)
+  * Cover coverage with coveralls
+* Continuous Integration with travis-CI and Heroku (WIP)
 
 ### Upcoming Features
 
@@ -16,8 +19,6 @@ Rails 5 boilerplate with postgresql and webpack
   * Google
   * Facebook
   * Twitter
-* Code coverage with RSpec
-* Continuous Integration with travis-CI and Heroku
 
 ## Dependencies
 
