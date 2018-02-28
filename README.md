@@ -1,4 +1,4 @@
-# Quickrails5
+# Quickrails5 [![Build Status](https://travis-ci.org/dnguyensr/quickrails5.svg?branch=master)](https://travis-ci.org/dnguyensr/quickrails5)
 
 Rails 5 boilerplate with postgresql and webpack
 
